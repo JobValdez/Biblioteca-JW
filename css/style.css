@@ -1,4 +1,25 @@
 body {
     background-image: radial-gradient(#dadee6, #dadee6);
     font-size: 18px;
+    margin:0;
+    border: black;
+    border-style:solid;
+}
+
+.container {
+    width: 90%;
+    border-style: solid;
+    border-color: gray;
+    margin: auto;
+}
+
+header {
+    background-color: white;
+    list-style: none;
+}
+.nav-list {
+    padding: 20px;
+    display: flex;
+    gap: 2rem;
+    justify-content: right;
 }
