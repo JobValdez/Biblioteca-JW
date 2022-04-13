@@ -1,25 +1,114 @@
 body {
-    background-image: radial-gradient(#dadee6, #dadee6);
-    font-size: 18px;
+    background-color: rgb(242, 241, 239);
+    font-size: 16px;
     margin:0;
-    border: black;
-    border-style:solid;
+    font-family: NotoSans,Arial,"Arial Unicode MS",sans-serif;
 }
 
-.container {
-    width: 90%;
-    border-style: solid;
-    border-color: gray;
-    margin: auto;
-}
-
-header {
-    background-color: white;
-    list-style: none;
-}
-.nav-list {
-    padding: 20px;
+.main-container {
     display: flex;
-    gap: 2rem;
-    justify-content: right;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0px 5px 20px gray;
+    flex-direction: column;
+}
+
+.header-container {
+    display: flex;
+    background-color: white;
+    gap:3rem;
+    justify-content:right;
+    padding: 8px;
+    box-shadow: 0px 1px 10px;
+    position: fixed;
+    width: 88.5%;
+}
+
+.center {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top:41px;
+}
+
+/* Estilos del Contenido del Texto Principal*/
+
+.texto-container {
+    background-color: white;
+    width: 50%;
+    padding: 2%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: NotoSans, Arial, "Arial Unicode MS", sans-serif;
+
+}
+.textobase {
+    color: rgb(41, 41, 41);
+    font-family: WTClearText, serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Estilos del contenido de Aside*/
+.aside-container {
+    width: 50%;
+    background-color: #f2f1ef;
+    padding: 2%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: NotoSans, Arial, "Arial Unicode MS", sans-serif;
+}
+
+.watchtower {
+    color: #a0a0a0;
+}
+
+.biblioteca {
+    color:#65605e;
+    font-size: 2.2em;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.bienvenido {
+    font-weight: 200;
+    font-size: 1.5em;
+    color: #a0a0a0;
+    padding-bottom: 20px;
+}
+
+.sobrelapagina {
+    margin-top: 0;
+    font-size: 1.1em;
+    color: #65605e;
+    margin-bottom: 0.5em;
+}
+
+.anuncio {
+    color: #a0a0a0;
+    font-size: 1.1em;
+}
+
+.descargas {
+    font-size: 1em;
+    color: #a0a0a0;
+    padding-bottom: 20px;
+}
+
+.idiomas {
+    color: #2878bb;
+}
+/* Fin de estilos de Aside*/
+
+.footer-container {
+    background-color: #eae9e6;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 2rem;
+}
+.copyright-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #dbd8d3;
 }
