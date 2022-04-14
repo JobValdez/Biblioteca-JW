@@ -6,28 +6,47 @@ body {
 }
 
 .main-container {
-    display: flex;
-    width: 90%;
     margin: auto;
+    min-height: 100vh;
     box-shadow: 0px 5px 20px gray;
+    display: flex;
     flex-direction: column;
+    width: 90%;
 }
 
 .header-container {
-    display: flex;
-    background-color: white;
-    gap:3rem;
-    justify-content:right;
-    padding: 8px;
-    box-shadow: 0px 1px 10px;
     position: fixed;
-    width: 88.5%;
+    width: 87.8%;
+    max-width: inherit;
+    background-color: white;
+    padding: 7px;
+    box-shadow: 0px 1px 10px;
+    display: flex;
+    gap: 35%;
+}
+
+.nav-container {
+    padding-left: 100px;
 }
 
 .center {
     display: flex;
     flex-direction: row-reverse;
     margin-top:41px;
+}
+
+.torre {
+    width: 40px;
+}
+
+.iconos {
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+.nav{
+    color: #64605d;
+    align-items:flex-start;
 }
 
 /* Estilos del Contenido del Texto Principal*/
@@ -44,7 +63,7 @@ body {
 .textobase {
     color: rgb(41, 41, 41);
     font-family: WTClearText, serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
 }
 
