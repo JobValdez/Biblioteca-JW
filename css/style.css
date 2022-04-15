@@ -47,6 +47,11 @@ body {
     margin-right: 10px;
 }
 
+a.nav:hover {
+    background-color:#4a6da7;
+}
+
+
 .nav{
     color: #64605d;
     align-items:flex-start;
