@@ -11,15 +11,14 @@ body {
     box-shadow: 0px 5px 20px gray;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 80%;
 }
 
 .header-container {
     position: fixed;
-    width: 87.8%;
+    width: 80%;
     max-width: inherit;
     background-color: white;
-    padding: 7px;
     box-shadow: 0px 1px 10px;
     display: flex;
     gap: 35%;
@@ -27,6 +26,10 @@ body {
 
 .nav-container {
     padding-left: 100px;
+}
+.nav{
+    text-decoration: none;
+    align-items: center;
 }
 
 .center {
@@ -61,10 +64,29 @@ body {
 
 }
 .textobase {
-    color: rgb(41, 41, 41);
-    font-family: WTClearText, serif;
-    font-size: 18px;
-    line-height: 24px;
+    color: rgb(59, 59, 59);
+    font-family: Arial, Helvetica, sans-serif, serif;
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+section.section h3 {
+    color: #292929;
+    font-size: 16px;
+}
+
+section.section a {
+    text-decoration: none;
+    color: #2878bb;
+    cursor: pointer;
+}
+
+section.section a:visited {
+    color: #4a6da7;
+}
+section.section a:hover {
+    text-decoration: underline;
 }
 
 /* Estilos del contenido de Aside*/
@@ -116,6 +138,14 @@ body {
 .idiomas {
     color: #2878bb;
 }
+
+.nuevosidiomas {
+    color: #292929;
+}
+
+em {
+    font-style: italic;
+}
 /* Fin de estilos de Aside*/
 
 .footer-container {
@@ -125,9 +155,35 @@ flex-direction: row;
 justify-content: center;
 gap: 2rem;
 }
+
+.footer-container div img {
+    width: 20px;
+}
+.footer-container div a {
+    color: #2878bb;
+}
+
+.footer-container div a:visited {
+    color: #4a6da7;
+}
+
 .copyright-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: #dbd8d3;
+    font-size: 12px;
+    gap: 1rem;
+}
+
+.copyright-container a {
+    color: #2878bb;
+    text-decoration: underline;
+}
+.copyright-container a:visited {
+    color: #4a6da7;
+}
+
+.copyright-container img {
+    width: 20px;
 }
